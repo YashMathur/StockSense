@@ -1,0 +1,9 @@
+C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\classes\debug
+C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-d6afc3a75089adddccb2fb306f7ed15a538dc72f.jar
+C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\GraphView-3.1.3-59feec359027c656f28d610ed1c97f7d412bf674.jar
+C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\classes-d89689ae25dfdab45dec94cafceb04c7d5c52d67.jar
+C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\achartengine-1.1.0-63a13f2f258b45d6f665fd60377c0bea66ffc70f.jar
+C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-19e1841b87f31e90cce523cf7317221f9b93c02c.jar
+C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\classes-6152bb912061c15f180906502f80b53d50a5ae27.jar
+C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\classes-61dfc6a7d335087b1af1b73740317aff31ec8e5b.jar
+C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\classes-d8794f4c85542b7f2478be97d7d92952d5599929.jar

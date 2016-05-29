@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingBottom="50dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dg"
+        android:padding="5dp"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/fName"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/White" />
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fvp"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/refresh"
+                android:layout_toLeftOf="@+id/refresh"
+                android:layout_alignBottom="@+id/fName" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/addfromport"
+                android:background="@drawable/highlight"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/add" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/refresh"
+                android:background="@drawable/highlight"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_action_refresh"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="47.17">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/pl"
+                android:textColor="@color/White"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/pl_perc"
+                android:textColor="@color/White"
+                android:visibility="visible"
+                android:layout_below="@+id/textView12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/dpl"
+                android:textColor="@color/White"
+                android:visibility="visible"
+                android:layout_marginLeft="43dp"
+                android:layout_marginStart="43dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView15"
+                android:layout_toEndOf="@+id/textView15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/dpl_perc"
+                android:textColor="@color/White"
+                android:visibility="visible"
+                android:layout_below="@+id/textView16"
+                android:layout_alignLeft="@+id/textView16"
+                android:layout_alignStart="@+id/textView16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Day&apos;s P/L"
+                android:id="@+id/textView16"
+                android:textColor="@color/White"
+                android:visibility="visible"
+                android:layout_below="@+id/dpl"
+                android:layout_alignLeft="@+id/dpl"
+                android:layout_alignStart="@+id/dpl" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/mktval"
+                android:textColor="@color/Gray"
+                android:visibility="visible"
+                android:layout_above="@+id/textView17"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView13"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Total P/L"
+                android:id="@+id/textView12"
+                android:textColor="@color/White"
+                android:visibility="visible"
+                android:layout_below="@+id/pl"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total P/L%"
+                android:id="@+id/textView15"
+                android:layout_below="@+id/pl_perc"
+                android:textColor="@color/White"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Day&apos;s P/L%"
+                android:id="@+id/textView17"
+                android:layout_below="@+id/dpl_perc"
+                android:layout_alignLeft="@+id/dpl_perc"
+                android:layout_alignStart="@+id/dpl_perc"
+                android:textColor="@color/White" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Market Value"
+                android:id="@+id/textView19"
+                android:textColor="@color/White"
+                android:visibility="visible"
+                android:layout_gravity="right"
+                android:layout_below="@+id/mktval"
+                android:layout_alignRight="@+id/mktval"
+                android:layout_alignEnd="@+id/mktval" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Text"
+        android:id="@+id/message"
+        android:textColor="@color/Gray"
+        android:visibility="gone" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/portfolio_view_list" />
+
+</LinearLayout>
+<!-- From: file:/G:/YashMathur/StockSense/stockSense/src/main/res/layout/portfolio_view.xml -->

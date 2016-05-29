@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+	<RadioGroup
+	    android:id="@+id/rge"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/greater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Greater than"
+            android:textColor="@color/White" />
+
+        <RadioButton
+            android:id="@+id/lesser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lesser than"
+            android:textColor="@color/White" />
+</RadioGroup>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editVal"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="@color/White"
+        android:hint="Target Price">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/editB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done" />
+
+</LinearLayout><!-- From: file:/G:/YashMathur/StockSense/stockSense/src/main/res/layout/edal.xml -->

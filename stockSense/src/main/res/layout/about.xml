@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StockSense"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/White"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="  v1.0.1"
+            android:id="@+id/textView35"
+            android:textColor="@color/White"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage all your favourite stocks, portfolios, alerts and business news all in real time with StockSense"
+        android:id="@+id/textView36"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/White"
+        android:textAlignment="gravity"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:padding="3dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© 2015 Yash Mathur, Abhinav Sapare. An Infigent Creation. All Rights Reserved"
+        android:textColor="@color/White"
+        android:gravity="center_horizontal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="News from IIFL"
+        android:id="@+id/textView37"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/White"
+        android:paddingTop="0dp"
+        android:paddingBottom="3dp"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

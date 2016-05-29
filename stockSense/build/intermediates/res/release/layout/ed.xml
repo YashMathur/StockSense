@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/alt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/alt"
+        android:visibility="gone"
+        android:paddingBottom="3dp" />
+
+    <TextView
+        android:id="@+id/alcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Alerts"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Gray"
+        android:visibility="gone" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ListView
+        android:id="@+id/edl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/HOME/AndroidstudioProjects/StockSense/stockSense/src/main/res/layout/ed.xml -->

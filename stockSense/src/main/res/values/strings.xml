@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_ad_unit_id">ca-app-pub-5506070993683162/4043255332</string>
+    <string name="app_name">StockSense</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="sym">Name</string>
+	<string name="ltp">LTP</string>
+	<string name="change">% Change</string>
+	<string name="eq">EQ</string>
+	<string name="website">*****YOUR WEBSITE HERE******</string>
+	<string name="intro">By using or visiting this app, software, data feeds, and services provided to you on, from, or through Infigent you signify your agreement to the Terms of Service.</string>
+	<string name ="main">The Services provided by the application obtain data from sources which may not belong to Infigent. Using the services provided to you by, Infigent does not give you intellectual property in our services or the content you use. These terms do not grant you the right to use any branding or logos used in our Services.</string>
+	<string name="disclaimer1">Infigent delivers content to you with a high degree of accuracy and to a commercially reasonable level of skill. However,</string>
+	<string name="disclaimer2">NEITHER Infigent NOR ITS SUPPLIERS OR DISTRIBUTORS MAKE ANY SPECIFIC PROMISES ABOUT THE SERVICES. FOR EXAMPLE, WE DON’T MAKE ANY COMMITMENTS ABOUT THE CONTENT WITHIN THE SERVICES, THE SPECIFIC FUNCTIONS OF THE SERVICES, OR THEIR RELIABILITY, AVAILABILITY, OR ABILITY TO MEET YOUR NEEDS. WE PROVIDE THE SERVICES “AS IS”.</string>
+	<string name="disclaimer3">SOME JURISDICTIONS PROVIDE FOR CERTAIN WARRANTIES, LIKE THE IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. TO THE EXTENT PERMITTED BY LAW, WE EXCLUDE ALL WARRANTIES.</string>
+	<string name="liability1">WHEN PERMITTED BY LAW, Infigent, AND Infigent’s SUPPLIERS AND DISTRIBUTORS, WILL NOT BE RESPONSIBLE FOR LOST PROFITS, REVENUES, OR DATA, FINANCIAL LOSSES OR INDIRECT, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES.</string>
+	<string name="liability2">IN ALL CASES, Infigent, AND ITS SUPPLIERS AND DISTRIBUTORS, WILL NOT BE LIABLE FOR ANY LOSS OR DAMAGE.</string>
+	<string name="busi">If you are using our Services on behalf of a business, that business accepts these terms. It will hold harmless and indemnify Google and its affiliates, officers, agents, and employees from any claim, suit or action arising from or related to the use of the Services or violation of these terms, including any liability or expense arising from claims, losses, damages, suits, judgments, litigation costs and attorneys’ fees.</string>			
+    <string name="l1">Infigent grants you a non-exculsive, non-transferrable and limited personal license to access and
+
+use one copy of the software on your mobile device. This is a conditional license upon your full
+
+and continuing compliance to these Terms and Conditions. You agree not to resell or permit
+
+access of this application to others. You may not copy, modify, distribute, sell, or lease any part
+
+of our materials or services, nor may you reverse engineer or attempt to extract the source code
+
+of the software.</string>
+    <string name="l2">The Services provided by the application obtain data from sources which may not belong to
+
+Infigent. Using the services provided to you by, Infigent does not give you intellectual property
+
+in our services or the content you use. These terms do not grant you the right to use any
+
+branding or logos used in our Services.</string>
+    <string name="ms">You acknowledge that while Infigent may provide maintenance and support for the Software
+
+from time to time, Infigent will have no obligation whatsoever to furnish such services to you
+
+and may terminate such services at any time without notice.</string>
+    <string name="p3">The application contains hyperlinks to third party websites which are not owned or operated by
+
+Infigent. You agree that Infigent is not responsible for the content displayed as well as the
+
+operation of these websites. A hyperlink provided by Infigent does not signify that that website
+
+has been endorsed by Infigent.</string>
+</resources>

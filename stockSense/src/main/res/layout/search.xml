@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentTop="true"
+	    android:layout_toRightOf="@+id/appName"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/et"
+            android:layout_alignBottom="@+id/et"
+            android:layout_alignParentLeft="true"
+            android:text="StockSense"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="visible" 
+            android:layout_centerVertical="true"/>
+        
+        <AutoCompleteTextView
+            android:id="@+id/et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Search StockSense"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:visibility="gone" >
+			
+            <requestFocus />
+        </AutoCompleteTextView>
+		
+        <ProgressBar
+            android:id="@+id/pgb"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:visibility="gone" />
+        
+        <ImageButton
+            android:id="@+id/sb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/highabar"
+            android:src="@drawable/ic_action_search"
+            android:visibility="visible" />
+
+
+ </RelativeLayout>
+    

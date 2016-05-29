@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="2dp"
+    android:paddingLeft="7dp"
+    android:layout_margin="0dp"
+    android:layout_gravity="center_vertical" >
+
+    <TextView
+        android:id="@+id/i_key"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="TextView" 
+        android:textColor="@color/White"
+        android:layout_weight="0.5"
+    	android:padding="2dp"
+    	android:layout_margin="0dp"
+    	android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/i_value"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="TextView" 
+        android:textColor="@color/White"
+        android:layout_weight="0.5"
+    	android:padding="2dp"
+    	android:layout_margin="0dp"
+    	android:layout_gravity="center_vertical"/>
+
+</LinearLayout><!-- From: file:/G:/YashMathur/StockSense/stockSense/src/main/res/layout/eqlist.xml -->
