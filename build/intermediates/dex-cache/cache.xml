@@ -2,60 +2,85 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\exploded-aar\StockSense\library\unspecified\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="7b1345d37e604e3b9822ba3f153748b1dc3a18e0">
-        <dex dex="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\classes-d89689ae25dfdab45dec94cafceb04c7d5c52d67.jar" />
-    </item>
-    <item
-        jar="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\libs\GraphView-3.1.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="672e4a5d8906ab21665dcc08c1f7edb6efd6f903">
-        <dex dex="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\GraphView-3.1.3-59feec359027c656f28d610ed1c97f7d412bf674.jar" />
-    </item>
-    <item
-        jar="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
-        <dex dex="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\classes-61dfc6a7d335087b1af1b73740317aff31ec8e5b.jar" />
-    </item>
-    <item
-        jar="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\libs\achartengine-1.1.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/yash/Desktop/Yash/StockSense/stockSense/libs/achartengine-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
-        <dex dex="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\achartengine-1.1.0-63a13f2f258b45d6f665fd60377c0bea66ffc70f.jar" />
+        <dex dex="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/transforms/dex/debug/folders/1000/2/achartengine-1.1.0_375613391cb4da3f443eb1b495e0958d95174728/classes.dex" />
     </item>
     <item
-        jar="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="677489827af12bc81ffb93f542c805ce1e52a2a6">
+        <dex dex="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5a2049d9d0b95a040fa842ad9c3cf85db0c7edee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/libs/internal_impl-21.0.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
-        <dex dex="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-19e1841b87f31e90cce523cf7317221f9b93c02c.jar" />
+        <dex dex="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.0_3509421df7de68f94db13fb5da0dd6e7ee79234c/classes.dex" />
     </item>
     <item
-        jar="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\exploded-aar\com.actionbarsherlock\actionbarsherlock\4.4.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="af64527b748983a75de9c0756e9768b56b240a49">
-        <dex dex="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\classes-6152bb912061c15f180906502f80b53d50a5ae27.jar" />
-    </item>
-    <item
-        jar="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\classes-d8794f4c85542b7f2478be97d7d92952d5599929.jar" />
+        <dex dex="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-6.5.87_ac0e3fbd0a1761aba83390cc10c57c781d2b14d7/classes.dex" />
     </item>
     <item
-        jar="C:\Users\HOME\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/yash/Desktop/Yash/StockSense/stockSense/libs/GraphView-3.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="672e4a5d8906ab21665dcc08c1f7edb6efd6f903">
+        <dex dex="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/transforms/dex/debug/folders/1000/2/GraphView-3.1.3_7596107d635c8b88a2a500baf4c268b220c115fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yash/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
-        <dex dex="C:\Users\HOME\AndroidstudioProjects\StockSense\stockSense\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-d6afc3a75089adddccb2fb306f7ed15a538dc72f.jar" />
+        <dex dex="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-21.0.0_b2e8dcf30f02abb845ac246049cc14327f29698c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="743c7822fe191af2a1dc21c6ec1d64bf7128563b">
+        <dex dex="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_04e2fd40b325f877c3e65bf26b33cbc21b07c364/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-21.0.0_5629bb46f57a082d2b8f992ef71b76e23bb9a725/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49">
+        <dex dex="/Users/yash/Desktop/Yash/StockSense/stockSense/build/intermediates/transforms/dex/debug/folders/1000/10/com.actionbarsherlock-actionbarsherlock-4.4.0_e966df5c0424714d651fb39665fd62751abb63ca/classes.dex" />
     </item>
 
 </items>

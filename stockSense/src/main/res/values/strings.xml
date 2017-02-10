@@ -8,7 +8,7 @@
 	<string name="ltp">LTP</string>
 	<string name="change">% Change</string>
 	<string name="eq">EQ</string>
-	<string name="website">*****YOUR WEBSITE HERE******</string>
+	<string name="website">http://infigent.co/stocksense/</string>
 	<string name="intro">By using or visiting this app, software, data feeds, and services provided to you on, from, or through Infigent you signify your agreement to the Terms of Service.</string>
 	<string name ="main">The Services provided by the application obtain data from sources which may not belong to Infigent. Using the services provided to you by, Infigent does not give you intellectual property in our services or the content you use. These terms do not grant you the right to use any branding or logos used in our Services.</string>
 	<string name="disclaimer1">Infigent delivers content to you with a high degree of accuracy and to a commercially reasonable level of skill. However,</string>

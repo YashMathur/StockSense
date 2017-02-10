@@ -20,6 +20,7 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -248,7 +249,7 @@ public class PortView extends Fragment {
                 if(p.size()>0) {
                     HttpClient httpClient = new DefaultHttpClient();
                     HttpGet httpGet = new HttpGet(getResources().getString(R.string.website) +
-                            "/php/port.php?j=" + URLEncoder.encode(jObj.toString(), "UTF-8"));
+                            "port.php?j=" + URLEncoder.encode(jObj.toString(), "UTF-8"));
                     HttpResponse httpResponse = httpClient.execute(httpGet);
                     InputStream inputStream = httpResponse.getEntity()
                             .getContent();
@@ -430,8 +431,11 @@ public class PortView extends Fragment {
 
 
             } catch (Exception e) {
-                Log.d("error", e.toString());
+                Log.d("erroryash", e.toString());
+                Toast.makeText(getActivity(), "Server error, please try again", Toast.LENGTH_LONG).show();
+                this.cancel(true);
             }
+            Log.d("arrayash", "A: "+a[0]+a[1]);
             return a;
         }
 
@@ -447,6 +451,7 @@ public class PortView extends Fragment {
                 TextView mk = (TextView) view.findViewById(R.id.mktval);
                 plT.setText(e[0]);
                 plT_perc.setText(e[1]);
+                Log.e("HERE IS THE ERROR", "HELLO"+e[1]);
                 if(!e[1].contains("-")){
                     plT.setTextColor(getResources().getColor(R.color.graphg));
                     plT_perc.setTextColor(getResources().getColor(R.color.graphg));
